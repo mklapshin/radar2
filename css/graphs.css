@@ -1,0 +1,153 @@
+@import url("./variables.css");
+
+body {
+  background-color: var(--bgcColor);
+}
+
+.container {
+  overflow: hidden;
+  width: 1200px;
+  min-height: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2px 5px 2px 5px;
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.graphs-text {
+  width: 900px;
+  margin: 0 0 0 290px;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 500;
+}
+.graphs-text__item {
+  text-align: right;
+  font-size: 2.143rem;
+  font-weight: 500;
+  max-width: 900px;
+}
+
+.graphs-legend {
+  display: flex;
+  flex-direction: row;
+}
+
+.graphs-legend-percent {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.graphs-legend__arrow {
+  width: 9px;
+  height: 24px;
+}
+
+.graphs-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 100px;
+}
+
+.graphs-wrapper__total {
+  width: 100px;
+  margin: 51px 60px 0 0;
+}
+
+.graphs-wrapper__total-text {
+  margin: 0 0 16.5px 0;
+}
+
+.graphs-wrapper__item .content {
+  margin: 0 0 7px 0;
+  padding: 0 60px 0 0;
+}
+
+.number {
+ text-align: center;
+ font-size: 25px;
+ margin: 0 0 0 0;
+}
+
+.date {
+  text-align: center;
+  font-size: 12px;
+ }
+
+.bar {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 2px 0;
+}
+
+.bar-wrapper {
+  width: 150px;
+}
+
+.bar-star {
+  width: 10px;
+  margin: 6px 0 0 0;
+}
+
+.bar-disabled {
+  width: 120px;
+  padding: 20px 0 0 0;
+  margin: 0 0 59px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: row; /*можно не писать*/
+  color: #c0c0c0;
+}
+
+.bar-inner {
+  float: left;
+  text-align: center;
+  height: 23px;
+  padding: 5px 0 0 0;
+}
+
+.bar-left {
+  background: #911818;
+}
+
+.bar-center {
+  background: #965863;
+}
+
+.bar-right {
+  background: #af8d87;
+}
+
+.bar-inner span {
+  float: left;
+  margin: 0 4 0 0;
+}
+
+.bar_image {
+  width: 10px;
+  height: 12px;
+}
+
+.bar-arrow {
+  width: 30px;
+  height: 12px;
+  margin: 10px 2px 0 12px;
+}
+
+.disabled-arrow {
+  margin: 18px 0 0 0;
+}
+
+.bar-wrapper-arrow_1 {
+  width: 15px;
+  height: 6px;
+  margin: 4px 2px 0 48px;
+}
+
+.bar-number {
+  width: 30px;
+  margin: 8px 0 0 6px;
+  color: #af1111;
+}
