@@ -1,0 +1,9 @@
+.base{
+  height: 200px;
+}
+
+.base-paragraph {
+  margin: 60px 0 0 520px;
+  font-size: 22px;
+  color: #9b9494;
+}
